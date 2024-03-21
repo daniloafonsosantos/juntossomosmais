@@ -10,6 +10,13 @@ Notei que os dois arquivos possuem os mesmo dados, então não faz muito sentido
 
 porém se houver algum caso com infomações diferentes, já está pronto também ;) ...
 
+Para alternar entre 'both','json','csv' existe uma parametrização em Settings.py na linha 31, basta selecionar o índice 
+da lista na variável IMPORT_TYPE = ['both','json','csv'][0], onde:
+
+[0] é para both, ou seja, os dois tipos de importação simultaneamente
+[1] é para json
+[2] é para csv
+
 *** Pensei em fazer um SET (Coleções), para remover os registros duplicados nesses casos, 
     convertendo para coleções, depois voltaria para a mesma lista, mas achei melhor deixar os dados brutos ***
 
